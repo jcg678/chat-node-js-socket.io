@@ -4,8 +4,16 @@
   "description": "chat node socket.io",
   "main": "index.js",
   "scripts": {
+  	"start": "nodemon server/index.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "frecuency",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
